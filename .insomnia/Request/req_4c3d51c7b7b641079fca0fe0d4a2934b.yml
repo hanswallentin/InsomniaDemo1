@@ -1,0 +1,24 @@
+_id: req_4c3d51c7b7b641079fca0fe0d4a2934b
+type: Request
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1716963409084
+created: 1585432485354
+url: http://{{ _.basehost }}:8000/proxy
+name: Pass-thru Proxy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585432485354
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

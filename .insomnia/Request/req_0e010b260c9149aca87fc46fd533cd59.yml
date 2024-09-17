@@ -1,0 +1,40 @@
+_id: req_0e010b260c9149aca87fc46fd533cd59
+type: Request
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1716963470719
+created: 1585420810414
+url: http://{{ _.basehost }}:8000/soap
+name: SOAP
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:tem="http://tempuri.org/">
+    	<soapenv:Header/> 
+    	<soapenv:Body> 
+    		<tem:Add> 
+    			<tem:intA>5</tem:intA> 
+    			<tem:intB>2</tem:intB> 
+    		</tem:Add> 
+    	</soapenv:Body> 
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - disabled: false
+    id: pair_17fb91f0f8fe4d94bdece29f2fe3cf5e
+    name: Content-Type
+    value: text/xml
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585420810414
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

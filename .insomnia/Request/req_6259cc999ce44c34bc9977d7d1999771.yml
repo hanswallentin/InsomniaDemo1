@@ -1,0 +1,24 @@
+_id: req_6259cc999ce44c34bc9977d7d1999771
+type: Request
+parentId: fld_2282c61e10e2417e88e59e88ca21faac
+modified: 1716963500903
+created: 1585417043637
+url: http://{{ _.basehost }}:8020/redisCache
+name: Redis Caching
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417934425.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

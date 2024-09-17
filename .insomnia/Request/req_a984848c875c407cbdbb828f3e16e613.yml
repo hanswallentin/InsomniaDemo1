@@ -1,0 +1,24 @@
+_id: req_a984848c875c407cbdbb828f3e16e613
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963594326
+created: 1585417143134
+url: http://{{ _.basehost }}:8000/keyAuth?apikey=gold
+name: Key Authentication
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417143134
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

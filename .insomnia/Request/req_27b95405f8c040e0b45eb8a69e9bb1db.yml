@@ -1,0 +1,27 @@
+_id: req_27b95405f8c040e0b45eb8a69e9bb1db
+type: Request
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1726574391153
+created: 1726574391153
+url: http://{{ _.basehost }}:8000/route4
+name: Demo Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.2.0
+authentication:
+  type: none
+preRequestScript: ""
+metaSortKey: -1717239036067
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

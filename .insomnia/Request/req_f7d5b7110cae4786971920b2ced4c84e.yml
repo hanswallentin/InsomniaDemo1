@@ -1,0 +1,24 @@
+_id: req_f7d5b7110cae4786971920b2ced4c84e
+type: Request
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1716963429100
+created: 1585589285363
+url: http://{{ _.basehost }}:8000/dql/kong
+name: DegraphQL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585589285363
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

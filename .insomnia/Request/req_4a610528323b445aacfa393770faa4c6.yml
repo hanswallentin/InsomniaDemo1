@@ -1,0 +1,38 @@
+_id: req_4a610528323b445aacfa393770faa4c6
+type: Request
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1716963422714
+created: 1585427768746
+url: http://{{ _.basehost }}:8000/graphql
+name: GraphQL
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n  insomnia: organization(login: \"kong\")
+    {\n    description\n    location\n    repository(name:
+    \"kong\"){description}\n  }\n  \n  kong: organization(login: \"kong\")
+    {\n    location\n    description\n    repository(name:
+    \"kuma\"){description}\n  }\n  \n  team: organization(login: \"kong\")
+    {\n    location\n    isVerified\n    url\n    description\n    repository(name:
+    \"se-tools\"){description}\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_9aba5b266df44ddb8a745efad1544199
+    name: authorization
+    value: Bearer 4519d1322e6eff1898ef899e0766ae4a51c03c7a
+  - id: pair_a657474956774fec89a06ce1024c0c77
+    name: content-type
+    value: application/json
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585427768746
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

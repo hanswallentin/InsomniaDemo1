@@ -1,0 +1,26 @@
+_id: req_bbe54e62574543078372a06db6250965
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963553088
+created: 1587178824306
+url: http://{{ _.basehost }}:8000/httpbin/anything
+name: App Call
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  token: cBynRANGy45uNct3cBcjBDQnGBDItVV6
+  type: bearer
+preRequestScript: ""
+metaSortKey: -1586371345514
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

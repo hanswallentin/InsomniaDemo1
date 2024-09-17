@@ -1,0 +1,34 @@
+_id: req_45e0fa0074a24c15ad0dd0acf07b8aca
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963534978
+created: 1587153405665
+url: https://{{ _.basehost }}:8443/httpbin/oauth2/token
+name: App Registration Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client_id":"KXJd2DmJ2zZOpEIgO9CiZBi4eHtTd7gx",
+    	"client_secret":"w2M0XU95A65CCCF2tijNRwfMM79w9XJU",
+    	"grant_type":"client_credentials"
+    }
+parameters: []
+headers:
+  - id: pair_9e7a366fbcaa4c3e80d1e4a49d5247f2
+    name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1587153405665
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_d9087c03a31c4cbea79afc7723f813bf
+type: Request
+parentId: fld_2282c61e10e2417e88e59e88ca21faac
+modified: 1716963477168
+created: 1586456882589
+url: http://{{ _.basehost }}:8000/rateLimiting
+name: Rate-Limiting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417934488
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

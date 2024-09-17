@@ -1,0 +1,24 @@
+_id: req_e5f9c2081e7e4d2c821298aecf9517df
+type: Request
+parentId: fld_58ee8cd1bac04538aff71a462afca2c6
+modified: 1716963621808
+created: 1585417333400
+url: http://{{ _.basehost }}:8000/awsLambda
+name: Lambda
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417333400
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

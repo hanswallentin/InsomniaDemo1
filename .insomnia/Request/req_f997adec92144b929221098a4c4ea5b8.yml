@@ -1,0 +1,28 @@
+_id: req_f997adec92144b929221098a4c4ea5b8
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963578597
+created: 1585417519925
+url: http://{{ _.basehost }}:8000/basicAuth
+name: Basic Authentication
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  password: auth
+  type: basic
+  username: basic
+preRequestScript: ""
+metaSortKey: -1585417519925
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

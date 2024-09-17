@@ -1,0 +1,28 @@
+_id: req_50bded97990c4839b707808450165467
+type: Request
+parentId: fld_58ee8cd1bac04538aff71a462afca2c6
+modified: 1716963614926
+created: 1585431067222
+url: http://{{ _.basehost }}:8000/preFunctionEnrich
+name: Pre-Function Enrich (x-uuid provided)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_828099915ddc41b787fd7d552661e7f4
+    name: x-uuid
+    value: foobar
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585430857086
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

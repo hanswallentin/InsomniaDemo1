@@ -1,0 +1,24 @@
+_id: req_a909ffefd5964342b591c12e84405be1
+type: Request
+parentId: fld_e05bb16f5b214b88b449a0ba702760dd
+modified: 1716963513915
+created: 1585417214583
+url: http://{{ _.basehost }}:8000/acl?apikey=acl11
+name: ACL (allowed)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417214583
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

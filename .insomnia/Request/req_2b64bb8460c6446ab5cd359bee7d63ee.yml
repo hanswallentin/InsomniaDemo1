@@ -1,0 +1,35 @@
+_id: req_2b64bb8460c6446ab5cd359bee7d63ee
+type: Request
+parentId: fld_2282c61e10e2417e88e59e88ca21faac
+modified: 1717055986954
+created: 1586984135359
+url: http://{{ _.basehost }}:8000/goldSilverFreeRedis
+name: Gold Silver Free
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: true
+    id: pair_94b64fabe1604d37ba12353ae1ee05cf
+    name: apikey
+    value: gold
+  - description: ""
+    disabled: true
+    id: pair_6f677165d4954eccb617293de144e317
+    name: apikey
+    value: silver
+headers: []
+authentication:
+  type: bearer
+preRequestScript: ""
+metaSortKey: -1585417934463
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

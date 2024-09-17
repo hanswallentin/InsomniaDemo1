@@ -1,0 +1,14 @@
+_id: fld_58ee8cd1bac04538aff71a462afca2c6
+type: RequestGroup
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1585417364306
+created: 1585417364306
+name: Serverless
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1585417364306
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

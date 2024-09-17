@@ -1,0 +1,14 @@
+_id: fld_e538fb314a934471b881488a555098e2
+type: RequestGroup
+parentId: wrk_67e08c0863a34e928bbedfeb6e0d9554
+modified: 1585417503768
+created: 1585417503768
+name: Authentication
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1585417503768
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

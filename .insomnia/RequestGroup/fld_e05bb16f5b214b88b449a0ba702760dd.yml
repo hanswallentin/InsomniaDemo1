@@ -1,0 +1,14 @@
+_id: fld_e05bb16f5b214b88b449a0ba702760dd
+type: RequestGroup
+parentId: fld_2282c61e10e2417e88e59e88ca21faac
+modified: 1585429380626
+created: 1585417229429
+name: ACLs
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1585417934413
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

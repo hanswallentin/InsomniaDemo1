@@ -1,0 +1,24 @@
+_id: req_901e6e3ff4a744929b871aa32b7217fc
+type: Request
+parentId: fld_2282c61e10e2417e88e59e88ca21faac
+modified: 1716963492308
+created: 1585417934338
+url: http://{{ _.basehost }}:8000/canary
+name: Canary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417934438
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

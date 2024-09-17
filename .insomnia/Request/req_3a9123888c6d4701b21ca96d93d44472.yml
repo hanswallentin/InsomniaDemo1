@@ -1,0 +1,28 @@
+_id: req_3a9123888c6d4701b21ca96d93d44472
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963571922
+created: 1585430812479
+url: http://{{ _.basehost }}:8000/preFunctionAuth
+name: Pre-Function Auth (allowed)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_7afd919dca5143d18ddbb7badc3aee08
+    name: x-custom-auth
+    value: ""
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585429246960
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

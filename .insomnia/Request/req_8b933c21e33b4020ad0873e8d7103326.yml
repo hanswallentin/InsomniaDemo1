@@ -1,0 +1,31 @@
+_id: req_8b933c21e33b4020ad0873e8d7103326
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1717505228305
+created: 1717505112924
+url: http://{{ _.basehost }}:8000/samplehttpbinroute
+name: SampleHttpBinRoute
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/9.2.0
+authentication:
+  type: apikey
+  disabled: false
+  key: apikey
+  value: YR28wYYgUAhK5trUIUel4cgX5c6kbfrY
+  addTo: header
+preRequestScript: ""
+metaSortKey: -1717505112924
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

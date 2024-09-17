@@ -1,0 +1,24 @@
+_id: req_7927088dbc5944f89cffa5742f52e950
+type: Request
+parentId: fld_58ee8cd1bac04538aff71a462afca2c6
+modified: 1716963629152
+created: 1585417422441
+url: http://{{ _.basehost }}:8000/azureFunction?name=Demo
+name: Azure Function
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585417273991.5
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

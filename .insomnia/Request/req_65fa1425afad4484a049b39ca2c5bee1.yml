@@ -1,0 +1,24 @@
+_id: req_65fa1425afad4484a049b39ca2c5bee1
+type: Request
+parentId: fld_58ee8cd1bac04538aff71a462afca2c6
+modified: 1716963606295
+created: 1585430988998
+url: http://{{ _.basehost }}:8000/preFunctionEnrich
+name: Pre-Function Enrich (generated)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585430988998
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

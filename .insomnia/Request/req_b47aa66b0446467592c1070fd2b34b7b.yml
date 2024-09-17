@@ -1,0 +1,24 @@
+_id: req_b47aa66b0446467592c1070fd2b34b7b
+type: Request
+parentId: fld_e538fb314a934471b881488a555098e2
+modified: 1716963564081
+created: 1585430725174
+url: http://{{ _.basehost }}:8000/preFunctionAuth
+name: Pre-Function Auth (denied)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: ""
+metaSortKey: -1585430725174
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
